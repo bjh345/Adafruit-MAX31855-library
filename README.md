@@ -1,3 +1,5 @@
+Adafruit MAX31855 with Kelvin reading 
+
 # Adafruit-MAX31855-library ![Build Status](https://github.com/adafruit/Adafruit-MAX31855-library/workflows/Arduino%20Library%20CI/badge.svg)
 
 Driver for the [Adafruit MAX31855 Thermocouple Amplifier](https://www.adafruit.com/product/269)
