@@ -174,6 +174,12 @@ double Adafruit_MAX31855::readFahrenheit(void) {
   return f;
 }
 
+double Adafruit_MAX31855::readKelvin(void) {
+  float k = readCelsius();
+  k += 273.15;
+  return k;
+}
+
 /**************************************************************************/
 /*!
     @brief  Read 4 bytes (32 bits) from breakout over SPI.

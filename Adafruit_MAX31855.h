@@ -43,6 +43,7 @@ public:
   double readInternal(void);
   double readCelsius(void);
   double readFahrenheit(void);
+  double readKelvin(void);
   uint8_t readError();
 
 private:
